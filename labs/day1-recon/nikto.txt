@@ -3,7 +3,7 @@
 + Target IP:          192.168.42.129
 + Target Hostname:    192.168.42.129
 + Target Port:        80
-+ Start Time:         2025-12-05 17:40:54 (GMT-5)
++ Start Time:         2025-12-09 11:02:21 (GMT-5)
 ---------------------------------------------------------------------------
 + Server: Apache/2.2.8 (Ubuntu) DAV/2
 + /: Retrieved x-powered-by header: PHP/5.2.4-2ubuntu5.10.
@@ -29,11 +29,3 @@
 + /phpinfo.php: PHP is installed, and a test script which runs phpinfo() was found. This gives a lot of system information. See: CWE-552
 + /icons/: Directory indexing found.
 + /icons/README: Apache default file found. See: https://www.vntweb.co.uk/apache-restricting-access-to-iconsreadme/
-+ /phpMyAdmin/: phpMyAdmin directory found.
-+ /phpMyAdmin/Documentation.html: phpMyAdmin is for managing MySQL databases, and should be protected or limited to authorized hosts.
-+ /phpMyAdmin/README: phpMyAdmin is for managing MySQL databases, and should be protected or limited to authorized hosts. See: https://typo3.org/
-+ /#wp-config.php#: #wp-config.php# file found. This file contains the credentials.
-+ 8910 requests: 0 error(s) and 27 item(s) reported on remote host
-+ End Time:           2025-12-05 17:41:29 (GMT-5) (35 seconds)
----------------------------------------------------------------------------
-+ 1 host(s) tested
