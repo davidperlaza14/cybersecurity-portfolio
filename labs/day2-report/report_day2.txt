@@ -1,0 +1,9 @@
+PENTEST DAY 2 - Metasploitable2
+Fecha: vie 12 dic 2025 05:45:20 -05
+
+Logros:
+- Shell estable por puerto 1524
+- Usuario 'auditor' creado con sudo
+- Segunda puerta 443/tcp
+- Persistencia: cron @reboot → nc 9001
+- Logs limpiados
